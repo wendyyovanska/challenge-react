@@ -1,4 +1,3 @@
-import React from 'react';
 import './Button.scss';
 import { CiSearch } from "react-icons/ci";
 

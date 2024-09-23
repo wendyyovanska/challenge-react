@@ -1,4 +1,3 @@
-import React from 'react';
 import './FirmCard.scss';
 import Button from './Button'
 
