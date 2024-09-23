@@ -1,0 +1,50 @@
+.custom-button {
+  width: 220px;
+  height: 40px;
+  color: white;
+  padding: 15px 45px;
+  border-radius: 70px;
+  font-size: 19px;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  // justify-content: center;
+  transition: background-color 1000ms linear;
+  &.initial {
+    background-color: #2D3E4E; // Initial state background
+    &:hover {
+      background-color: #07C06A; // Transparent on hover
+    }
+  }
+  &.stroke {
+    background-color: #2D3E4E;
+    &:hover {
+      background-color: #07C06A; // Transparent on hover
+      box-shadow:inset 0px 0px 0px 2px #f00;
+    }
+  }
+  &.disabled {
+    background-color: #AAAAAA; // Gray background when disabled
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  .icon-container {
+    padding: 0 15px 0 0;
+  }
+  .icon {
+    font-size: 22px;
+  }
+  .button-text {
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
+.hidden {display:none}
