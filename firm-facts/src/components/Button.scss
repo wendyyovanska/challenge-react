@@ -9,18 +9,18 @@
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  // justify-content: center;
+  margin: 0 auto;
   transition: background-color 1000ms linear;
   &.initial {
     background-color: #2D3E4E; // Initial state background
     &:hover {
-      background-color: #07C06A; // Transparent on hover
+      background-color: #07C06A;
     }
   }
   &.stroke {
     background-color: #2D3E4E;
     &:hover {
-      background-color: #07C06A; // Transparent on hover
+      background-color: #07C06A;
       box-shadow:inset 0px 0px 0px 2px #f00;
     }
   }
@@ -28,6 +28,7 @@
     background-color: #AAAAAA; // Gray background when disabled
     cursor: not-allowed;
     pointer-events: none;
+    display: flex;
   }
   .icon-container {
     padding: 0 15px 0 0;

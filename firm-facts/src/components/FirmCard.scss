@@ -1,0 +1,44 @@
+.firm-card {
+  border: 1px solid black;
+  width: 364px;
+  height: 332px;
+  transition: background-color 1000ms linear;
+  background-color: white;
+  &:hover {
+    // .bg-white {background-color: white;}
+    
+    // .bg-green {background-color: #07C06A;}
+    // background-color: #07C06A;
+    .custom-button {
+      &.initial, &.stroke {
+        background-color: #07C06A;
+      }
+      &.stroke {
+        box-shadow:inset 0px 0px 0px 2px #FFFFFF;
+        &:hover {
+          background-color: #07C06A;
+        }
+      }
+    }
+  }
+}
+
+.bg-green{
+  &:hover {
+    background-color: #07C06A;
+  }
+}
+
+.add-border{
+  &:hover{
+  box-shadow:inset 0px 0px 0px 15px #07C06A;
+  }
+}
+
+.content-center {
+  align-items: center;
+  display: flex;
+}
+.not-centered {
+  padding-top: 30px;
+}
