@@ -5,4 +5,22 @@ body {
 }
 .App {
   background-color: #2D3E4E;
+  max-width: 1680px;
+  min-width: 768px;
+  padding-left: 3.4rem;
+  padding-right: 3.4rem;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  padding-top: 100px;
+}
+hr {
+  opacity: 0.2;
+  margin-top: 20px;
+  margin-bottom: 32px;
 }

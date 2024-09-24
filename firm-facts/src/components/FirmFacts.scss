@@ -1,15 +1,57 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr;
-  gap: 35px;
+@media (min-width: 768px) and (max-width: 1060px)  {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); // 2 equal columns
+    grid-auto-rows: 1fr; // Equal row heights
+    gap: 2.18rem;
+  }
+  
+  .item1 {
+    grid-row: span 2; // Spanning 2 rows
+    background-color: white;
+  }
+  
+  .firm-card.add-border.content-center {
+    height: 100% !important; // Ensure full height for the firm cards
+    aspect-ratio: 1 / 1; // Maintain square aspect ratio (same height and width)
+  }
+  
+  
 }
 
-.item1 {
-  grid-row: span 2;
-  background-color: white;
+@media (min-width: 1060px) and (max-width: 1400px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; // 3 columns
+    grid-template-rows: 1fr 1fr; // 2 rows
+    gap: 2.18rem;
+  }
+  
+  .item1 {
+    grid-row: span 2; // Item spans 2 rows
+    background-color: white;
+  }
+  
+  .firm-card.add-border.content-center {
+    height: 100% !important; // Full height for the firm cards
+  }
+  
 }
 
-.firm-card.add-border.content-center {
-  height: 100% !important;
+@media (min-width: 1399px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    gap: 2.18rem;
+  }
+  
+  .item1 {
+    grid-row: span 2;
+    background-color: white;
+  }
+  
+  .firm-card.add-border.content-center {
+    height: 100% !important;
+  }
 }
