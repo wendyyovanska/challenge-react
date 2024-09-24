@@ -3,61 +3,61 @@ import FirmCard from './FirmCard'
 
 const buttons = [
   {
-    text: "This is a two line button that terminates with a really long text",
-    hasIcon: false,
+    text: "1 This is a two line button that terminates with a really long text",
+    hasIcon: true,
     status: 'initial',
     cardStatus: 'working',
     isBgChanging: false,
     isCentered: true
   },
   {
-    text: "dos",
+    text: "4 This is a two line button that terminates with a really long text",
+    hasIcon: true,
+    status: 'stroke',
+    cardStatus: 'working',
+    isBgChanging: true,
+    isCentered: true
+  },
+  {
+    text: "This is a one line button",
+    hasIcon: false,
+    status: 'stroke',
+    cardStatus: 'working',
+    isBgChanging: false,
+    isCentered: true
+  },
+  {
+    text: "5 This is a two line button that terminates with a really long text",
+    hasIcon: true,
+    status: 'stroke',
+    cardStatus: 'working',
+    isBgChanging: false,
+    isCentered: true
+  },
+  {
+    text: "6 This is a two line button that terminates with a really long text",
+    hasIcon: true,
+    status: 'initial',
+    cardStatus: 'working',
+    isBgChanging: false,
+    isCentered: false
+  },
+  
+  {
+    text: "2 This is a two line button that terminates with a really long text",
     hasIcon: true,
     status: 'disabled',
     cardStatus: 'notworking',
     isBgChanging: false,
     isCentered: false
-
   },
   {
-    text: "tres",
+    text: "7 This is a two line button that terminates with a really long text",
     hasIcon: true,
     status: 'stroke',
     cardStatus: 'working',
-    isBgChanging: true,
-    isCentered: true
-  },
-  {
-    text: "4",
-    hasIcon: true,
-    status: 'stroke',
-    cardStatus: 'working',
-    isBgChanging: true,
-    isCentered: true
-  },
-  {
-    text: "5",
-    hasIcon: true,
-    status: 'stroke',
-    cardStatus: 'working',
-    isBgChanging: true,
-    isCentered: true
-  },
-  {
-    text: "6",
-    hasIcon: true,
-    status: 'stroke',
-    cardStatus: 'working',
-    isBgChanging: true,
-    isCentered: true
-  },
-  {
-    text: "7",
-    hasIcon: true,
-    status: 'stroke',
-    cardStatus: 'working',
-    isBgChanging: true,
-    isCentered: true
+    isBgChanging: false,
+    isCentered: false
   }
 ]
 
